@@ -28,7 +28,7 @@ app.directive('listManager', function(){
         restrict: 'E',
         replace: true,
         scope: {
-            item: '='
+            items: '='
         },
         template: '<ul><list-item ng-repeat="item in items" item="item"></list-item></ul>'
     }
